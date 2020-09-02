@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Wrap It</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
+    </header>
+    <body>
+        <div id="main-container">
+            <div class="row" id="title">
+                <!-- <div class="col-md-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ71NcfJZkE64Bmgm4FlXP1xoBmKc6GFUPJCQ&usqp=CAU" height="50px" weidth="50px" alt="logo"/> 
+                </div> -->
+                <div class="col-md-10">
+                <h1 class="text-uppercase">Wrap It</h1>
+                </div>
+            </div>
+            </br>
+            <div class="row" id="information-bar">
+            <div id="about-me" class="col-md-5">
+                <h3 class="text-uppercase">About</h3>
+                </br><p>Who wants to buy an entire roll of paper for a small present. </br>You can make a custom wrapping paper in this application.</br> Super easy, super fun, and super free! Just follow the step to </br>the right and you are good to go!</br></br><bold>Thanks for using Wrap It!</bold></p></br></br>
+            </div>
+            <div id="instructions" class="col-md-5">
+                <h3 class="text-uppercase">Instructions</h3>
+                <ol>
+                    <li>Select a layout and hit the submit button</li>
+                    <li>Layout One </li>
+                        <ul>
+                            <li>Go to the web, find an image, and get the image url</li>
+                            <li>Write a short text input (we are working on a text wrapping funcation at the moment)</li>
+                        </ul>
+                    <li>Layout Two</li>
+                    <ul>
+                        <li>Go to the web, find two images, and get the images url</li>
+                    </ul>
+                    <li>Press submit!</li>
+                    <li>If you want to change the wrapping paper hit clear make your changes and submit again</li>
+                    <li>Copy and Paste the image into any text document and print</li>
+                </ol>
+            </div>
+            </div>
+            </br>
+            <div class="row" id="main-body">
+            <div id="forms">
+            <div id="first-form">
+                <form class="form-inline">
+                </br>    
+                <!-- <label for="wrapping-paper-name">Wrapping Paper Name</label>
+                <input id="wrapping-paper-name" type="text"></input> -->
+                <label for="layout"></label>
+                <select name="layout" id="wrapping-paper" class="form-control">
+                    <option value="">Select a Layout</option>
+                    <option value="1">One Image & Text</option>
+                    <option value="2">Two Images</option>
+                    <!-- <option value="3">Mercedes</option>
+                    <option value="4">Audi</option> -->
+                </select>
+                <button type="submit" class="btn btn-success">submit</button>
+                </form>
+            </div>
+            </br>
+            <div id="second-form">
+
+            </div>
+            </div>
+            <div id="canvas-container">
+                <canvas id="myCanvas" width="600" height="800"></canvas>
+                </br>
+                </br>
+            </div>
+            </div>
+            </div>
+            <script type="text/javascript" src="src/index.js" defer></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous" defer></script>
+    </body>
+</html>
+
+
