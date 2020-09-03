@@ -1,6 +1,6 @@
 #myCanvas{    
-    /* border-style: solid; */
-    /* border-color: hsla(144, 100%, 28%, 0.73); */
+    border-style: solid;
+    border-color: hsla(144, 100%, 28%, 0.73);
     border-width: 1px;
     margin-right: 30px;
     margin-left: 30px;
@@ -15,6 +15,7 @@
 }
 
 .col-md-5{
+    /* justify-self: stretch; */
     margin-right: 20px;
     margin-left: 38.75px; 
     margin-top: 5px;
@@ -22,8 +23,8 @@
 }
 
 .col-md-6{
-    /* border-style: solid; */
-    /* border-color:hsla(144, 100%, 28%, 0.73); */
+    border-style: solid;
+    border-color:hsla(144, 100%, 28%, 0.73);
     border-width: 1px; 
     border-radius: 8px;
     margin-right: 30px;
@@ -33,12 +34,13 @@
     background-color: hsla(144, 100%, 39%, 0.03);
     /* width: 47.7%; */
     height: inherit;
+    /* justify-self: flex-end; */
 } 
 
 .col-md-12 {
-    /* border-style: solid; */
-    /* border-color:hsla(144, 100%, 28%, 0.73); */
-    /* border-width: 1px;  */
+    border-style: solid;
+    border-color:hsla(144, 100%, 28%, 0.73);
+    border-width: 1px; 
     border-radius: 8px;
     margin-right: 15px;
     margin-left: 30px;
@@ -51,9 +53,9 @@
 }
 
 #main-body{
-    /* border-style: solid; */
-    /* border-color:hsla(144, 100%, 28%, 0.73); */
-    /* border-width: 1px;  */
+    border-style: solid;
+    border-color:hsla(144, 100%, 28%, 0.73);
+    border-width: 1px; 
     border-radius: 8px;
     margin-right: 15px;
     margin-left: 15px;
